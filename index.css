@@ -1,8 +1,19 @@
+html, body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
 #canvas {
   position: relative;
   margin: 0 auto;
-  width: 512px;
-  height: 512px;
+  width: 300px;
+  height: 300px;
 }
 .ball {
   position: absolute;
@@ -157,4 +168,17 @@
   left: 5%;
   width: 45%;
   height: 46%;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #333;
+  background-color: #eee;
+  padding: 4px;
 }
