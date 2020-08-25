@@ -1,0 +1,160 @@
+#canvas {
+  position: relative;
+  margin: 0 auto;
+  width: 512px;
+  height: 512px;
+}
+.ball {
+  position: absolute;
+  display: block;
+  content: '';
+  border-radius: 50%;
+  background-color: #fc001a;
+}
+.eye {
+  position: absolute;
+  display: block;
+  content: '';
+  border-radius: 50%;
+  background: white;
+}
+.eye::after {
+  position: absolute;
+  display: block;
+  content: '';
+  border-radius: 50%;
+  background: #1081f4;
+}
+#ball-1 {
+  width: 23%;
+  height: 23%;
+  top: 14%;
+  left: 53%;
+}
+#ball-2 {
+  width: 27%;
+  height: 13%;
+  top: 33%;
+  left: 59%;
+}
+#ball-3 {
+  width: 17%;
+  height: 22%;
+  top: 41%;
+  left: 63%;
+}
+#ball-4 {
+  width: 25%;
+  height: 23%;
+  top: 59%;
+  left: 57%;
+}
+#ball-5 {
+  width: 22%;
+  height: 22%;
+  top: 72%;
+  left: 43%;
+}
+#ball-6 {
+  width: 16%;
+  height: 16%;
+  top: 73%;
+  left: 31%;
+}
+#ball-7 {
+  width: 11%;
+  height: 18%;
+  top: 61%;
+  left: 26%;
+}
+#ball-8 {
+  width: 20%;
+  height: 20%;
+  top: 47%;
+  left: 15%;
+}
+#ball-9 {
+  width: 18%;
+  height: 18%;
+  top: 31%;
+  left: 14%;
+}
+#ball-10 {
+  width: 15%;
+  height: 15%;
+  top: 37%;
+  left: 27%;
+}
+#ball-11 {
+  width: 15%;
+  height: 17%;
+  top: 23%;
+  left: 27%;
+}
+#ball-12 {
+  width: 18%;
+  height: 18%;
+  top: 14%;
+  left: 37%;
+}
+
+#eye-1 {
+  top: 10%;
+  left: 38%;
+  width: 45%;
+  height: 45%;
+}
+#eye-1::after {
+  top: 9%;
+  left: 40%;
+  width: 45%;
+  height: 45%;
+}
+#eye-4 {
+  top: 31%;
+  left: 44%;
+  width: 50%;
+  height: 47%;
+}
+#eye-4::after {
+  top: 15%;
+  left: 54%;
+  width: 41%;
+  height: 46%;
+}
+#eye-5 {
+  top: 49%;
+  left: 29%;
+  width: 35%;
+  height: 35%;
+}
+#eye-5::after {
+  top: 62%;
+  left: 26%;
+  width: 42%;
+  height: 39%;
+}
+#eye-8 {
+  top: 34%;
+  left: 40%;
+  width: 48%;
+  height: 45%;
+}
+#eye-8::after {
+  top: 2%;
+  left: 25%;
+  width: 45%;
+  height: 46%;
+}
+#eye-9 {
+  top: 20%;
+  left: 10%;
+  width: 50%;
+  height: 48%;
+}
+#eye-9::after {
+  top: 13%;
+  left: 5%;
+  width: 45%;
+  height: 46%;
+}
